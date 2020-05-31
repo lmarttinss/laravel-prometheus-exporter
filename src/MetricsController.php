@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace Arquivei\LaravelPrometheusExporter;
 
-use Illuminate\Routing\ResponseFactory;
+use Laravel\Lumen\Http\ResponseFactory;
 use Illuminate\Routing\Controller;
 use Prometheus\RenderTextFormat;
 use Symfony\Component\HttpFoundation\Response;
